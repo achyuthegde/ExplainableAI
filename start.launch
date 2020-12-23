@@ -1,0 +1,8 @@
+ <launch>
+
+<node pkg="using_markers" type="broadcaster_cpp"
+          args="/my_frame1" name="my_frame1_tf2_broadcaster" />
+    <node pkg="using_markers" type="broadcaster_cpp"
+          args="/my_frame2" name="my_frame2_tf2_broadcaster" />
+
+</launch>
